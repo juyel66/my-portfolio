@@ -126,15 +126,37 @@ nav {
     
 
 }
+main{
+    max-width: 1140px;
+    margin:  0px auto;
+    
+}
 
 
 
 /* about sectins style  */
 
 .about {
-    padding: 130;
+    padding: 330;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    margin-bottom: 0px;
+
+
+}
+
+.info-description{
+    margin-top: 5px;
 }
