@@ -203,4 +203,14 @@ line-height: normal;
 .Resume-container{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+}
+.resume-column{
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
