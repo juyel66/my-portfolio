@@ -1,4 +1,4 @@
-/* nav related style */
+about1/* nav related style */
 
 
 nav,
@@ -234,4 +234,25 @@ footer{
 }
 form{
     margin: 50px;
+}
+
+
+
+@media screen and (max-width:576px){
+    
+    .about1{
+       flex-direction: column;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .footer-column{
+        flex-direction: column;
+    }
+    .footer-column{
+        width: 100%;
+    }
+   
+    
+    
 }
